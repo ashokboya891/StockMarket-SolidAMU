@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title | Stocks</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-content">
+            <div class="margin-bottom">
+                <div class="flex" id="top-bar-div">
+                    <div class="flex-1" id="app-title-div">
+                        <h1 class="app-title">
+                            <i class="fa-solid fa-money-bill-trend-up"></i>
+                            Stocks
+                        </h1>
+                    </div>
+
+                    <div class="flex-1 pr" id="search-box-div">
+                        <input type="search" class="search-text" placeholder="Search Stocks" name="SearchText" />
+                        <i class="fa-solid fa-gear"></i>
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a asp-controller="Account" asp-action="Login">
+                                <button class="button button-blue-back ml login-button">Login</button>
+                            </a>
+                            <a asp-controller="Account" asp-action="Register">
+                                <button class="button button-blue-back ml login-button">Register</button>
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="user-info">Hello, @User.Identity.Name</span>
+                            <a asp-controller="Account" asp-action="Logout" method="post" class="logout-form">
+                                <button type="submit" class="button button-red-back ml logout-button">Logout</button>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar mb">
+                <ul>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li><a asp-controller="Stocks" asp-action="Explore" class="@(ViewBag.CurrentUrl == "~/Explore" ? "nav-active" : "")">Explore</a></li>
+                        <li><a asp-controller="Trade" asp-action="Index" class="@(ViewBag.CurrentUrl == "~/Trade/Index" ? "nav-active" : "")">Trade</a></li>
+                        <li><a asp-controller="Trade" asp-action="Orders" class="@(ViewBag.CurrentUrl == "~/Trade/Orders" ? "nav-active" : "")">Orders</a></li>
+                        <li><a asp-area="Admin" asp-controller="Home" asp-action="Index">Admin</a></li>
+                        <li><a asp-area="Moderator" asp-controller="Home" asp-action="Index">Moderator</a></li>
+                    }
+                    else if (User.IsInRole("Moderator"))
+                    {
+                        <li><a asp-controller="Stocks" asp-action="Explore" class="@(ViewBag.CurrentUrl == "~/Explore" ? "nav-active" : "")">Explore</a></li>
+                        <li><a asp-controller="Trade" asp-action="Index" class="@(ViewBag.CurrentUrl == "~/Trade/Index" ? "nav-active" : "")">Trade</a></li>
+                        <li><a asp-controller="Trade" asp-action="Orders" class="@(ViewBag.CurrentUrl == "~/Trade/Orders" ? "nav-active" : "")">Orders</a></li>
+                        <li><a asp-area="Moderator" asp-controller="Home" asp-action="Index">Moderator</a></li>
+                    }
+                    else if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-controller="Stocks" asp-action="Explore" class="@(ViewBag.CurrentUrl == "~/Explore" ? "nav-active" : "")">Explore</a></li>
+                        <li><a asp-controller="Trade" asp-action="Index" class="@(ViewBag.CurrentUrl == "~/Trade/Index" ? "nav-active" : "")">Trade</a></li>
+                        <li><a asp-controller="Trade" asp-action="Orders" class="@(ViewBag.CurrentUrl == "~/Trade/Orders" ? "nav-active" : "")">Orders</a></li>
+                    }
+                </ul>
+            </div>
+
+
+            @RenderBody()
+        </div>
+    </div>
+
+    @await RenderSectionAsync("scripts", required: false)
+</body>
+</html>

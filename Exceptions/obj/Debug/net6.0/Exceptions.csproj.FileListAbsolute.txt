@@ -1,0 +1,45 @@
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.deps.json
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfo.cs
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\refint\Exceptions.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\ref\Exceptions.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.deps.json
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfo.cs
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\refint\Exceptions.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\ref\Exceptions.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.deps.json
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfoInputs.cache
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfo.cs
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\refint\Exceptions.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.pdb
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\ref\Exceptions.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.deps.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\bin\Debug\net6.0\Exceptions.pdb
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfoInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.AssemblyInfo.cs
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.csproj.CoreCompileInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.sourcelink.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\refint\Exceptions.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\Exceptions.pdb
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Exceptions\obj\Debug\net6.0\ref\Exceptions.dll

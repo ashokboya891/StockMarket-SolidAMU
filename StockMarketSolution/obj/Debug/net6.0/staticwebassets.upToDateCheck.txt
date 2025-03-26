@@ -1,0 +1,7 @@
+wwwroot\error.svg
+wwwroot\Rotativa\wkhtmltopdf.exe
+wwwroot\Scripts\ChartScript.js
+wwwroot\Scripts\Class.js
+wwwroot\Scripts\FinnhubScript.js
+wwwroot\Scripts\PieChar.js
+wwwroot\StyleSheet.css

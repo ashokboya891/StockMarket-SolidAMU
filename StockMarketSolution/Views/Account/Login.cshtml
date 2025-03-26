@@ -1,0 +1,78 @@
+﻿@model LoginDTO
+@{
+    ViewBag.Title = "Login-Page";
+}
+@* <h3>Login-page</h3> *@
+
+<style>
+    html, body, label {
+      font-family: 'Roboto', sans-serif;
+    }
+</style>
+<div class="min-h-screen py-40" style="background-image: linear-gradient(115deg, #9F7AEA, #FEE2FE)">
+    <div class="container mx-auto">
+        <!-- wrapper  -->
+        <div class="flex flex-col lg:flex-row w-10/12 lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden">
+            <!-- left  -->
+            <!-- right  -->
+            <div class="w-full lg:w-1/2 py-16 px-12">
+                <h2 class="text-3xl mb-4">Login</h2>
+                <p class="mb-4">Create your account. It’s free and only take a minute </p>
+                <p class="mb-4">if already register click here to  <a asp-action="Register" asp-controller="Account">Register</a> </p>
+
+                <form asp-action="Login" method="post" asp-controller="Account">
+                  
+
+                
+
+                    <div class="mt-5">
+                        <label id="Email">Email</label>
+                        <input asp-for="Email" placeholder="Email" class="border border-gray-400 py-1 px-2 w-full">
+                        <span asp-validation-for="Email" style="color:red"></span>
+                    </div>
+                 
+                    <div class="mt-5">
+                        <label id="Password">Password</label>
+                        <input asp-for="Password" placeholder="Password" class="border border-gray-400 py-1 px-2 w-full">
+                        <span asp-validation-for="Password" style="color:red"></span>
+                    </div>
+                 
+                    @*   <div class="mt-5">
+                    <input type="checkbox" class="border border-gray-400">
+                    <span>
+                    I accept the <a href="#" class="text-purple-500 font-semibold">Terms of Use</a> & <a href="#" class="text-purple-500 font-semibold">Privacy Policy</a>
+                    </span>
+                    </div> *@
+                    <div class="mt-5">
+                        <button type="submit" class="bg-purple-500 w-full text-center text-white py-3">Login Now</button>
+                    </div>
+                    <div asp-validation-summary="All" style="color:red">
+                    </div>
+                    @if (ViewBag.Errors != null)
+                    {
+                        @foreach (string error in ViewBag.Errors)
+                        {
+                            <h4>@error</h4>
+                        }
+                    }
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" asp-fallback-test="window.jQuery" asp-fallback-src="~/jQuery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" asp-fallback-test="window.jQuery.validator" asp-fallback-src="~/jQuery.Validate.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog=="
+        crossorigin="anonymous" referrerpolicy=" no-referrer

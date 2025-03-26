@@ -1,0 +1,529 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\SMS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj",
+        "projectName": "Exceptions",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj",
+        "projectName": "RepositoryContracts",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj",
+        "projectName": "ServiceContracts",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\SMS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\SMS.csproj",
+        "projectName": "SMS",
+        "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\SMS.csproj",
+        "packagesPath": "C:\\Users\\91891\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\91891\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions\\Exceptions.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Repositories\\Repositories.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts\\RepositoryContracts.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts\\ServiceContracts.csproj"
+              },
+              "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\91891\\Documents\\Downloads\\AspNetCore-Harsha-main\\AspNetCore-Harsha-main\\Assignment Solutions\\21. Section 23 - SOLID Principles - Stocks App\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Rotativa.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

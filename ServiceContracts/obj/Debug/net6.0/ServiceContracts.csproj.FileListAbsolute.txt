@@ -1,0 +1,61 @@
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Documents\Downloads\AspNetCore-Harsha-main\AspNetCore-Harsha-main\Assignment Solutions\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.deps.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\ServiceContracts.pdb
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\bin\Debug\net6.0\Entities.pdb
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.AssemblyReference.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfoInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.AssemblyInfo.cs
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.csproj.CoreCompileInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.sourcelink.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceC.04662A29.Up2Date
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\refint\ServiceContracts.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ServiceContracts.pdb
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\ServiceContracts\obj\Debug\net6.0\ref\ServiceContracts.dll

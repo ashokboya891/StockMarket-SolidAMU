@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB3735F-54F3-490F-A424-448A40A86C68}|StockMarketSolution\\StockMarketSolution.csproj|c:\\angular(harsha)\\21. section 23 - solid principles - stocks app\\stockmarketsolution\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB3735F-54F3-490F-A424-448A40A86C68}|StockMarketSolution\\StockMarketSolution.csproj|solutionrelative:stockmarketsolution\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB3735F-54F3-490F-A424-448A40A86C68}|StockMarketSolution\\StockMarketSolution.csproj|c:\\angular(harsha)\\21. section 23 - solid principles - stocks app\\stockmarketsolution\\areas\\moderator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BB3735F-54F3-490F-A424-448A40A86C68}|StockMarketSolution\\StockMarketSolution.csproj|solutionrelative:stockmarketsolution\\areas\\moderator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\Areas\\Moderator\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockMarketSolution\\Areas\\Moderator\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\Areas\\Moderator\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StockMarketSolution\\Areas\\Moderator\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T12:59:42.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StocksController.cs",
+              "DocumentMoniker": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\Controllers\\StocksController.cs",
+              "RelativeDocumentMoniker": "StockMarketSolution\\Controllers\\StocksController.cs",
+              "ToolTip": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\Controllers\\StocksController.cs",
+              "RelativeToolTip": "StockMarketSolution\\Controllers\\StocksController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:52:08.273Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 958,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

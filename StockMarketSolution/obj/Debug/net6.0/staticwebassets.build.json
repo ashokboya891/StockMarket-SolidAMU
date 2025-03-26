@@ -1,0 +1,743 @@
+{
+  "Version": 1,
+  "Hash": "K0veubSi398Q9P3O1rRfdM+XDSUl9985BA6LexgScPo=",
+  "Source": "StockMarketSolution",
+  "BasePath": "_content/StockMarketSolution",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StockMarketSolution\\wwwroot",
+      "Source": "StockMarketSolution",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\error.svg",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "error#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3iwubkh3iq",
+      "Integrity": "9XRmwQ0X13DL6FasTx/6HZ2cpKYSDQNLj7rqUngh3uU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\error.svg"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "Rotativa/wkhtmltopdf#[.{fingerprint}]?.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cuquy3615b",
+      "Integrity": "ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\ChartScript.js",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "Scripts/ChartScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3b0xflkn7j",
+      "Integrity": "MZ0w4SgK2EPdwVCHGbD5do5cbdD8fvkqTjOlr+K7fbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\ChartScript.js"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\Class.js",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "Scripts/Class#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9tqn2mpej5",
+      "Integrity": "g656zrfTTxOIhkdF4/I5g5jFP/sFks5dr48dM0oC5ys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Class.js"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\FinnhubScript.js",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "Scripts/FinnhubScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c214xzhia9",
+      "Integrity": "nGR8iDbVbdngYdZuTESCs7vjJ3y4eqKAHBNgHi+L26w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnhubScript.js"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\PieChar.js",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "Scripts/PieChar#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4732occt8f",
+      "Integrity": "sEQOXml7zeBF6nMN1ARr71S2HSu+MVKC+shkNZKa5SI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\PieChar.js"
+    },
+    {
+      "Identity": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\StyleSheet.css",
+      "SourceId": "StockMarketSolution",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\",
+      "BasePath": "_content/StockMarketSolution",
+      "RelativePath": "StyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ho8b45p6q",
+      "Integrity": "GMdX6ryBW3n3JM5/RJLqm1bxTdwQsmlhFDcoxtbDLz4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "error.3iwubkh3iq.svg",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\error.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XRmwQ0X13DL6FasTx/6HZ2cpKYSDQNLj7rqUngh3uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 13:46:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3iwubkh3iq"
+        },
+        {
+          "Name": "label",
+          "Value": "error.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XRmwQ0X13DL6FasTx/6HZ2cpKYSDQNLj7rqUngh3uU="
+        }
+      ]
+    },
+    {
+      "Route": "error.svg",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\error.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11753"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XRmwQ0X13DL6FasTx/6HZ2cpKYSDQNLj7rqUngh3uU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 13:46:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XRmwQ0X13DL6FasTx/6HZ2cpKYSDQNLj7rqUngh3uU="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.cuquy3615b.exe",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 13:46:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cuquy3615b"
+        },
+        {
+          "Name": "label",
+          "Value": "Rotativa/wkhtmltopdf.exe"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
+    {
+      "Route": "Rotativa/wkhtmltopdf.exe",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41563648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.microsoft.portable-executable"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 13:46:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNF2gjIL/9RbIgjtE7E21ZE56CVzdF8UVWzyXpXL2Ag="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/ChartScript.3b0xflkn7j.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\ChartScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MZ0w4SgK2EPdwVCHGbD5do5cbdD8fvkqTjOlr+K7fbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 12:08:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3b0xflkn7j"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/ChartScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MZ0w4SgK2EPdwVCHGbD5do5cbdD8fvkqTjOlr+K7fbQ="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/ChartScript.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\ChartScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MZ0w4SgK2EPdwVCHGbD5do5cbdD8fvkqTjOlr+K7fbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 12:08:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MZ0w4SgK2EPdwVCHGbD5do5cbdD8fvkqTjOlr+K7fbQ="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Class.9tqn2mpej5.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\Class.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g656zrfTTxOIhkdF4/I5g5jFP/sFks5dr48dM0oC5ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 12:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tqn2mpej5"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/Class.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g656zrfTTxOIhkdF4/I5g5jFP/sFks5dr48dM0oC5ys="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/Class.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\Class.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g656zrfTTxOIhkdF4/I5g5jFP/sFks5dr48dM0oC5ys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 12:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g656zrfTTxOIhkdF4/I5g5jFP/sFks5dr48dM0oC5ys="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/FinnhubScript.c214xzhia9.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\FinnhubScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nGR8iDbVbdngYdZuTESCs7vjJ3y4eqKAHBNgHi+L26w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 11:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c214xzhia9"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/FinnhubScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nGR8iDbVbdngYdZuTESCs7vjJ3y4eqKAHBNgHi+L26w="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/FinnhubScript.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\FinnhubScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2539"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nGR8iDbVbdngYdZuTESCs7vjJ3y4eqKAHBNgHi+L26w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 11:05:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nGR8iDbVbdngYdZuTESCs7vjJ3y4eqKAHBNgHi+L26w="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/PieChar.4732occt8f.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\PieChar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEQOXml7zeBF6nMN1ARr71S2HSu+MVKC+shkNZKa5SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 12:13:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4732occt8f"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/PieChar.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEQOXml7zeBF6nMN1ARr71S2HSu+MVKC+shkNZKa5SI="
+        }
+      ]
+    },
+    {
+      "Route": "Scripts/PieChar.js",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\Scripts\\PieChar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sEQOXml7zeBF6nMN1ARr71S2HSu+MVKC+shkNZKa5SI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 12:13:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sEQOXml7zeBF6nMN1ARr71S2HSu+MVKC+shkNZKa5SI="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.4ho8b45p6q.css",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdX6ryBW3n3JM5/RJLqm1bxTdwQsmlhFDcoxtbDLz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 10:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ho8b45p6q"
+        },
+        {
+          "Name": "label",
+          "Value": "StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMdX6ryBW3n3JM5/RJLqm1bxTdwQsmlhFDcoxtbDLz4="
+        }
+      ]
+    },
+    {
+      "Route": "StyleSheet.css",
+      "AssetFile": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution\\wwwroot\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMdX6ryBW3n3JM5/RJLqm1bxTdwQsmlhFDcoxtbDLz4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 10:26:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMdX6ryBW3n3JM5/RJLqm1bxTdwQsmlhFDcoxtbDLz4="
+        }
+      ]
+    }
+  ]
+}

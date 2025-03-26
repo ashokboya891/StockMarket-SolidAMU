@@ -1,0 +1,350 @@
+﻿ @model ManageUserRolesViewModel
+
+@{
+    ViewBag.Title = "Admin-Home-Page";
+}
+
+
+<h3>"Edit-Home-Page"</h3>
+<h5>Return to <a asp-controller="Students" asp-action="Index">students</a></h5>
+<h3>Go to <a asp-controller="Students" asp-action="GetRegisteredUsersWithRoles">Roles</a></h3>
+
+<h2>User Role Management</h2>
+
+<!-- Anti-Forgery Token for Security -->
+<form id="antiForgeryForm">
+    @Html.AntiForgeryToken()
+</form>
+
+@if (Model == null || Model.Users == null || Model.Roles == null)
+{
+    <p class="alert alert-warning">No user or role data available.</p>
+}
+else
+{
+    <h2>Manage User Roles</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Current Roles</th>
+                <th>Assign New Role</th>
+                <th>Actions</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>
+                        @if (user.Roles.Any())
+                        {
+                            <ul>
+                                @foreach (var role in user.Roles)
+                                {
+                                    <li>
+                                        @role
+                                        <button class="btn btn-danger btn-sm revoke-role-btn" data-userid="@user.UserId" data-role="@role">❌ Revoke</button>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No roles assigned</span>
+                        }
+                    </td>
+                    <td>
+                        <select id="roleDropdown-@user.UserId" class="form-control">
+                            <option value="">-- Select Role --</option>
+                            @foreach (var role in Model.Roles)
+                            {
+                                <option value="@role.Name">@role.Name</option>
+                            }
+                        </select>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm assign-role-btn" data-userid="@user.UserId">
+                            Assign
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get CSRF Token Function
+        function getAntiForgeryToken() {
+            var tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+            return tokenElement ? tokenElement.value : null;
+        }
+
+        // Assign Role Function
+        function assignRole(userId) {
+            console.log("Assign Role clicked for UserID:", userId);
+
+            var dropdown = document.getElementById("roleDropdown-" + userId);
+            if (!dropdown) {
+                alert("Dropdown not found for User ID: " + userId);
+                return;
+            }
+
+            var selectedRole = dropdown.value;
+            if (!selectedRole) {
+                alert("Please select a role before assigning.");
+                return;
+            }
+
+            var token = getAntiForgeryToken();
+            if (!token) {
+                alert("Security token missing! Try reloading the page.");
+                return;
+            }
+
+            fetch('/Admin/Home/AssignRole', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': token,
+                    'X-CSRF-TOKEN': token
+                },
+                body: JSON.stringify({
+                    userId: userId,
+                    roleName: selectedRole
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("Role assigned successfully!");
+                    location.reload();
+                } else {
+                    alert("Failed to assign role: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        // Revoke Role Function
+        function revokeRole(userId, roleName) {
+            console.log("Revoke Role clicked for UserID:", userId, "Role:", roleName);
+
+            if (!confirm(`Are you sure you want to revoke the role "${roleName}" from this user?`)) {
+                return;
+            }
+
+            var token = getAntiForgeryToken();
+            if (!token) {
+                alert("Security token missing! Try reloading the page.");
+                return;
+            }
+
+            fetch('/Admin/Home/RevokeRole', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': token,
+                    'X-CSRF-TOKEN': token
+                },
+                body: JSON.stringify({
+                    userId: userId,
+                    roleName: roleName
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(`Role "${roleName}" revoked successfully!`);
+                    location.reload();
+                } else {
+                    alert("Failed to revoke role: " + data.message);
+                }
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        // Attach Event Listeners for Assign Role Buttons
+        document.querySelectorAll(".assign-role-btn").forEach(button => {
+            button.addEventListener("click", function () {
+                var userId = this.getAttribute("data-userid");
+                assignRole(userId);
+            });
+        });
+
+        // Attach Event Listeners for Revoke Role Buttons
+        document.querySelectorAll(".revoke-role-btn").forEach(button => {
+            button.addEventListener("click", function () {
+                var userId = this.getAttribute("data-userid");
+                var roleName = this.getAttribute("data-role");
+                revokeRole(userId, roleName);
+            });
+        });
+    });
+</script>
+
+@*
+<h3>"Edit-Home-Page"</h3>
+<h5>Return to <a asp-controller="Students" asp-action="Index">students</a></h5>
+<h3>Go to <a asp-controller="Students" asp-action="GetRegisteredUsersWithRoles">Roles</a></h3>
+
+<h2>User Role Management</h2>
+
+<form id="antiForgeryForm">
+    @Html.AntiForgeryToken() <!-- ✅ Ensure Anti-Forgery Token Exists -->
+</form>
+
+@if (Model == null || Model.Users == null || Model.Roles == null)
+{
+    <p class="alert alert-warning">No user or role data available.</p>
+}
+else
+{
+    <h2>Manage User Roles</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Current Roles</th>
+                <th>Assign New Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>
+                        @if (user.Roles.Any())
+                        {
+                            <ul>
+                                @foreach (var role in user.Roles)
+                                {
+                                    <li>
+                                        @role
+                                        <button class="btn btn-danger btn-sm" onclick="revokeRole('@user.UserId.ToString()','@role')">❌ Revoke</button>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No roles assigned</span>
+                        }
+                    </td>
+                    <td>
+                        <select id="roleDropdown-@user.UserId" class="form-control">
+                            <option value="">-- Select Role --</option>
+                            @foreach (var role in Model.Roles)
+                            {
+                                <option value="@role.Name">@role.Name</option>
+                            }
+                        </select>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm" onclick="assignRole('@user.UserId.ToString()')">
+                            Assign
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script>
+    function assignRole(userId) {
+        console.log("Assign Role clicked for UserID: ", userId); // Debugging log
+
+        var dropdown = document.getElementById("roleDropdown-" + userId);
+        console.log("Dropdown Element:", dropdown); // Debugging log
+
+        if (!dropdown) {
+            alert("Dropdown not found for User ID: " + userId);
+            return;
+        }
+
+        var selectedRole = dropdown.value;
+        if (!selectedRole) {
+            alert("Please select a role before assigning.");
+            return;
+        }
+
+        // Get the CSRF token from the hidden form
+        var tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+        var token = tokenElement ? tokenElement.value : null;
+
+        if (!token) {
+            console.error("CSRF token not found!");
+            alert("Security token missing! Try reloading the page.");
+            return;
+        }
+            function revokeRole(userId, roleName) {
+        console.log("Revoke Role clicked for UserID:", userId, "Role:", roleName); // Debugging log
+
+        if (!confirm(`Are you sure you want to revoke the role "${roleName}" from this user?`)) {
+            return; // Exit if user cancels
+        }
+
+        // Get the CSRF token from the hidden form
+        var tokenElement = document.querySelector('input[name="__RequestVerificationToken"]');
+        var token = tokenElement ? tokenElement.value : null;
+
+        if (!token) {
+            console.error("CSRF token not found!");
+            alert("Security token missing! Try reloading the page.");
+            return;
+        }
+
+        fetch('/Admin/Home/RevokeRole', { // Ensure this matches your API endpoint
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': token // CSRF token for security
+            },
+            body: JSON.stringify({
+                userId: userId,
+                roleName: roleName
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert(`Role "${roleName}" revoked successfully!`);
+                location.reload(); // Reload page to reflect changes
+            } else {
+                alert("Failed to revoke role: " + data.message);
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    }
+
+        fetch('/Admin/Home/AssignRole', { // ✅ Ensure correct URL without "/Areas"
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': token // ✅ Use extracted token
+            },
+            body: JSON.stringify({
+                userId: userId,
+                roleName: selectedRole
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert("Role assigned successfully!");
+                location.reload();
+            } else {
+                alert("Failed to assign role: " + data.message);
+            }
+        })
+        .catch(error => console.error("Error:", error));
+    }
+</script>
+ *@

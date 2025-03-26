@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StockMarketSolution
+build_property.RootNamespace = StockMarketSolution
+build_property.ProjectDir = C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Areas/Admin/Views/Home/GetRegisteredUsersWithRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxHZXRSZWdpc3RlcmVkVXNlcnNXaXRoUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Areas/Moderator/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9kZXJhdG9yXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Areas/Moderator/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTW9kZXJhdG9yXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Shared/Components/SelectedStock/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VsZWN0ZWRTdG9ja1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Stocks/Explore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tzXEV4cGxvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Trade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Trade/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/Trade/OrdersPDF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhZGVcT3JkZXJzUERGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Angular(Harsha)/21. Section 23 - SOLID Principles - Stocks App/StockMarketSolution/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
