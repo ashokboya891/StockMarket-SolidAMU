@@ -8,56 +8,38 @@ using System;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Text.Json;
+using System.Security.Claims;
 
 namespace Services.StocksService
 {
     public class StocksSellOrdersService : ISellOrdersService
     {
-        //private field
         private readonly IStocksRepository _stocksRepository;
 
-
-        /// <summary>
-        /// Constructor of StocksService class that executes when a new object is created for the class
-        /// </summary>
         public StocksSellOrdersService(IStocksRepository stocksRepository)
         {
             _stocksRepository = stocksRepository;
         }
 
-
-
-        public async Task<SellOrderResponse> CreateSellOrder(SellOrderRequest? sellOrderRequest)
+        public async Task<SellOrderResponse> CreateSellOrder(SellOrderRequest? sellOrderRequest, Guid userId)
         {
-            //Validation: sellOrderRequest can't be null
             if (sellOrderRequest == null)
                 throw new ArgumentNullException(nameof(sellOrderRequest));
 
-            //Model validation
             ValidationHelper.ModelValidation(sellOrderRequest);
 
-            //convert sellOrderRequest into SellOrder type
             SellOrder sellOrder = sellOrderRequest.ToSellOrder();
-
-            //generate SellOrderID
             sellOrder.SellOrderID = Guid.NewGuid();
+            sellOrder.UserID = userId; // Assign the user ID
 
-            //add sell order object to sell orders list
-            SellOrder SellOrderFromRepo = await _stocksRepository.CreateSellOrder(sellOrder);
-
-            //convert the SellOrder object into SellOrderResponse type
+            SellOrder SellOrderFromRepo = await _stocksRepository.CreateSellOrder(sellOrder, userId);
             return sellOrder.ToSellOrderResponse();
         }
 
-
-        public async Task<List<SellOrderResponse>> GetSellOrders()
+        public async Task<List<SellOrderResponse>> GetSellOrders(Guid userId)
         {
-            //Convert all SellOrder objects into SellOrderResponse objects
-            List<SellOrder> sellOrders = await _stocksRepository.GetSellOrders();
-
+            List<SellOrder> sellOrders = await _stocksRepository.GetSellOrders(userId);
             return sellOrders.Select(temp => temp.ToSellOrderResponse()).ToList();
         }
     }
 }
-
-

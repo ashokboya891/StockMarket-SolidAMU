@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{9C1C1D61-8E7F-4B1D-B0B3-DBA346BF5D43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{89C27703-6AC0-4C45-8BB2-0AA119FC416D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryContracts", "RepositoryContracts\RepositoryContracts.csproj", "{AEF3F211-CEEB-4526-B22E-0CC4F59B268F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{AF0C7D45-EEC8-4871-A4D4-6E9EFF70CBFA}"
@@ -41,10 +39,6 @@ Global
 		{9C1C1D61-8E7F-4B1D-B0B3-DBA346BF5D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1C1D61-8E7F-4B1D-B0B3-DBA346BF5D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1C1D61-8E7F-4B1D-B0B3-DBA346BF5D43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89C27703-6AC0-4C45-8BB2-0AA119FC416D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89C27703-6AC0-4C45-8BB2-0AA119FC416D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89C27703-6AC0-4C45-8BB2-0AA119FC416D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89C27703-6AC0-4C45-8BB2-0AA119FC416D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AEF3F211-CEEB-4526-B22E-0CC4F59B268F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AEF3F211-CEEB-4526-B22E-0CC4F59B268F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF3F211-CEEB-4526-B22E-0CC4F59B268F}.Release|Any CPU.ActiveCfg = Release|Any CPU

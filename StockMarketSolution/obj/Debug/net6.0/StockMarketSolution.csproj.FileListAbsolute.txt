@@ -237,8 +237,8 @@ C:\Users\91891\Desktop\AspnetcoreHrsha\21. Section 23 - SOLID Principles - Stock
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\appsettings.Development.json
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\appsettings.json
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\appsettings.Test.json
-C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.staticwebassets.endpoints.json
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.staticwebassets.runtime.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.staticwebassets.endpoints.json
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.exe
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.deps.json
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\bin\Debug\net6.0\StockMarketSolution.runtimeconfig.json
@@ -345,10 +345,10 @@ C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSol
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.StockMarketSolution.props
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.StockMarketSolution.props
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\staticwebassets.pack.json
-C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\StockMar.F8FD5E04.Up2Date
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\StockMarketSolution.dll
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\refint\StockMarketSolution.dll
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\StockMarketSolution.pdb
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\StockMarketSolution.genruntimeconfig.cache
 C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\ref\StockMarketSolution.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\StockMarketSolution\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt

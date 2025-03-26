@@ -1,0 +1,9 @@
+{
+  "Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\Entities",
+  "Exceptions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\Exceptions",
+  "Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\Repositories",
+  "RepositoryContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\RepositoryContracts",
+  "ServiceContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\ServiceContracts",
+  "Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\Services",
+  "StockMarketSolution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Angular(Harsha)\\21. Section 23 - SOLID Principles - Stocks App\\StockMarketSolution"
+}

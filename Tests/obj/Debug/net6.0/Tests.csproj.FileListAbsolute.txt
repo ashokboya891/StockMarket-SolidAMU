@@ -477,3 +477,11 @@ C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\
 C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.pdb
 C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
 C:\Users\91891\Desktop\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\ref\Tests.dll
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.csproj.AssemblyReference.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\MvcTestingAppManifest.json
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.AssemblyInfoInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.AssemblyInfo.cs
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.csproj.CoreCompileInputs.cache
+C:\Angular(Harsha)\21. Section 23 - SOLID Principles - Stocks App\Tests\obj\Debug\net6.0\Tests.sourcelink.json

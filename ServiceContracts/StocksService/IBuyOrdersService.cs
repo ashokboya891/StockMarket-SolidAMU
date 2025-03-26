@@ -11,14 +11,14 @@ namespace ServiceContracts.StocksService
   /// Creates a buy order
   /// </summary>
   /// <param name="buyOrderRequest">Buy order object</param>
-  Task<BuyOrderResponse> CreateBuyOrder(BuyOrderRequest? buyOrderRequest);
+  Task<BuyOrderResponse> CreateBuyOrder(BuyOrderRequest? buyOrderRequest,Guid userId);
 
 
   /// <summary>
   /// Returns all existing buy orders
   /// </summary>
   /// <returns>Returns a list of objects of BuyOrder type</returns>
-  Task<List<BuyOrderResponse>> GetBuyOrders();
+  Task<List<BuyOrderResponse>> GetBuyOrders(Guid userId);
  }
 }
 

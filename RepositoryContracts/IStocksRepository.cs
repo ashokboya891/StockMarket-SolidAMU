@@ -11,28 +11,28 @@ namespace RepositoryContracts
   /// Creates a buy order
   /// </summary>
   /// <param name="buyOrder">Buy order object</param>
-  Task<BuyOrder> CreateBuyOrder(BuyOrder buyOrder);
+  Task<BuyOrder> CreateBuyOrder(BuyOrder buyOrder,Guid userId);
 
 
   /// <summary>
   /// Creates a buy order
   /// </summary>
   /// <param name="sellOrder">Sell order object</param>
-  Task<SellOrder> CreateSellOrder(SellOrder sellOrder);
+  Task<SellOrder> CreateSellOrder(SellOrder sellOrder,Guid userId);
 
 
   /// <summary>
   /// Returns all existing buy orders
   /// </summary>
   /// <returns>Returns a list of objects of BuyOrder type</returns>
-  Task<List<BuyOrder>> GetBuyOrders();
+  Task<List<BuyOrder>> GetBuyOrders(Guid userId);
 
 
   /// <summary>
   /// Returns all existing sell orders
   /// </summary>
   /// <returns>Returns a list of objects of SellOrder type</returns>
-  Task<List<SellOrder>> GetSellOrders();
+  Task<List<SellOrder>> GetSellOrders(Guid userId);
  }
 }
 

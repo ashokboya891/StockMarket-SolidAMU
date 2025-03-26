@@ -46,6 +46,10 @@ namespace ServiceContracts.DTO
   /// </summary>
   [Range(1, 10000, ErrorMessage = "The maximum price of stock is 10000. Minimum is 1.")]
   public double Price { get; set; }
- }
+
+  // Associate the order with the logged-in user
+  public Guid UserID { get; set; }  // Foreign Key
+
+    }
 }
 

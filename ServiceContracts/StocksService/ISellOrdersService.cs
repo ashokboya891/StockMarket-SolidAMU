@@ -11,14 +11,14 @@ namespace ServiceContracts.StocksService
   /// Creates a buy order
   /// </summary>
   /// <param name="sellOrderRequest">Sell order object</param>
-  Task<SellOrderResponse> CreateSellOrder(SellOrderRequest? sellOrderRequest);
+  Task<SellOrderResponse> CreateSellOrder(SellOrderRequest? sellOrderRequest,Guid userId);
 
 
   /// <summary>
   /// Returns all existing sell orders
   /// </summary>
   /// <returns>Returns a list of objects of SellOrder type</returns>
-  Task<List<SellOrderResponse>> GetSellOrders();
+  Task<List<SellOrderResponse>> GetSellOrders(Guid userId);
  }
 }
 

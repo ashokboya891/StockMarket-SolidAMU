@@ -25,7 +25,9 @@ namespace StockMarketSolution.Controllers
         //git pull origin main  to fetch last changed from git
         //git log --oneline --graph --decorate --all  --commit histories
         //git reset --soft HEAD~1  --If you mistakenly committed something and want to undo before pushing
-
+        //git remote remove origin  to remove origin
+        //rm -rf .git  to remove git repository if already connection existed
+        //git reset --hard HEAD~1  to remove last commit
 
         /// <summary>
         /// Constructor for TradeController that executes when a new object is created for the class
